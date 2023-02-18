@@ -9,16 +9,16 @@ st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('azure.png'))
 
-st.header('Azure Kubernetes')
+st.header('Azure Kubernetes Services (AKS)')
 
 st.info('AKS Kubenets, CNI, CNI overlay')
 
 icon_size = 20
 
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
-st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
-st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
-st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
-st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
-st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
+st_button('youtube', 'https://learn.microsoft.com/en-us/azure/aks/concepts-network#kubenet-basic-networking', 'AKS Concepts', icon_size)
+st_button('youtube', 'https://learn.microsoft.com/en-us/azure/aks/configure-kubenet', 'AKS Kubenet', icon_size)
+st_button('medium', 'https://inder-devops.medium.com/aks-networking-deep-dive-kubenet-vs-azure-cni-vs-azure-cni-overlay-a51709171ce9', 'AKS Networking Deep Dive', icon_size)
+st_button('twitter', 'https://learn.microsoft.com/en-us/azure/aks/configure-azure-cni', 'AKS CNI model', icon_size)
+st_button('linkedin', 'https://learn.microsoft.com/en-us/azure/aks/azure-cni-overlay', 'AKS CNI Overlay model', icon_size)
+st_button('newsletter', 'https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-network', 'AKS Operator Best Practices', icon_size)
+st_button('cup', 'https://learn.microsoft.com/en-us/azure/aks/azure-cni-powered-by-cilium', 'Azure CNI powered by Cilium', icon_size)
