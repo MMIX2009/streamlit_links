@@ -22,3 +22,6 @@ st_button('twitter', 'https://learn.microsoft.com/en-us/azure/aks/configure-azur
 st_button('linkedin', 'https://learn.microsoft.com/en-us/azure/aks/azure-cni-overlay', 'AKS CNI Overlay model', icon_size)
 st_button('newsletter', 'https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-network', 'AKS Operator Best Practices', icon_size)
 st_button('cup', 'https://learn.microsoft.com/en-us/azure/aks/azure-cni-powered-by-cilium', 'Azure CNI powered by Cilium', icon_size)
+st_button('youtube', 'https://learn.microsoft.com/en-us/azure/aks/configure-kubenet-dual-stack?tabs=azure-cli%2Ckubectl', 'AKS Kubenet dual stack', icon_size)
+st_button('youtube', 'https://learn.microsoft.com/en-us/azure/aks/use-byo-cni?tabs=azure-cli', 'AKS BYO CNI', icon_size)
+st_button('youtube', 'https://learn.microsoft.com/en-us/azure/aks/configure-azure-cni-dynamic-ip-allocation', 'AKS CNI Dynamic IP configuration', icon_size)
